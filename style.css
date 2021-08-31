@@ -23,6 +23,11 @@ body {
   font-size: 18px;
 }
 
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+}
+
 .crypto-logo {
   text-align: center;
   margin-top: 50px;
@@ -137,7 +142,23 @@ footer {
   .container {
     text-align: center;
     margin-top: 60px;
-    max-width: 420px;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 360px;
+  }
+
+  .crypto-logo h1 {
+    font-size: 26px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 17px;
+    margin: auto;
+  }
+
+  .crypto-logo img {
+    width: 320px;
   }
 
   .currency input {
