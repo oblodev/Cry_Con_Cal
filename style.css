@@ -1,7 +1,7 @@
 @import url(<linkrel="preconnect"href="https://fonts.googleapis.com"><linkrel="preconnect"href="https://fonts.gstatic.com"crossorigin><linkhref="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap"rel="stylesheet">);
 
 :root {
-  --primary-color: #5fbaa7;
+  --primary-color: #171a26;
   --secondary-color: #6440ab;
 }
 
@@ -10,13 +10,13 @@
 }
 
 body {
-  background-color: #171a26;
+  background-color: var(--primary-color);
   font-family: "Roboto Mono", monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+
   margin: 0;
   padding: 20px;
   color: #fff;
@@ -34,8 +34,8 @@ body.modal-open {
 }
 
 .crypto-logo img {
-  width: 400px;
-  margin-bottom: 60px;
+  width: 300px;
+  margin: 60px 0;
 }
 
 .container {

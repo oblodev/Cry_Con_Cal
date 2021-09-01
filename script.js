@@ -27,7 +27,7 @@ function cryptoResponse() {
           .then((res2) => res2.json())
           .then((data2) => {
             const currency_two = currencyEl_two.value;
-            console.log(currency_two);
+            //console.log(currency_two);
             const fiat_rate = data2.conversion_rates[currency_two];
 
             if (currency_two != "USD") {
