@@ -10,7 +10,7 @@ function cryptoResponse() {
   const currency_one = currencyEl_one.value;
 
   fetch(
-    `http://api.coinlayer.com/api/live?access_key=e386d4f97b7f34c0b7bfb372a1c941f7#`
+    `https://api.coinlayer.com/api/live?access_key=e386d4f97b7f34c0b7bfb372a1c941f7#`
   )
     .then((res) => res.json())
     .then((data) => {
